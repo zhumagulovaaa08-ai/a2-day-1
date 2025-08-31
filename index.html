@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English with Mixlass - Vocabulary Practice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+        }
+    </style>
+</head>
+<body class="p-6 md:p-12">
+
+    <!-- Header Section -->
+    <header class="text-center mb-10">
+        <h1 class="text-4xl md:text-5xl font-bold text-orange-500">English with Mixlass</h1>
+        <p class="text-xl md:text-2xl text-gray-700 mt-2">LEARN. SHARE. CONNECT</p>
+    </header>
+
+    <div class="max-w-4xl mx-auto bg-white p-6 md:p-10 rounded-xl shadow-lg">
+        <h2 class="text-3xl font-bold mb-6 text-center">Vocabulary: Common Verbs (Practice)</h2>
+        <p class="text-lg text-gray-600 mb-8 text-center">Complete the exercises using the bold words from the text!</p>
+
+        <!-- Task 1: Match the words to the meanings. -->
+        <div id="task1" class="mb-8">
+            <h3 class="text-xl font-semibold mb-4 text-orange-500">Task 1: Match the words and phrases in bold with the meanings (1-8).</h3>
+            <form id="quizForm1" class="space-y-4">
+                <div class="space-y-2">
+                    <p class="text-gray-700">1. You close your eyes and start sleeping.</p>
+                    <input type="text" id="q1_task1" class="border rounded-md p-2 w-full mt-1" placeholder="Your answer">
+                    <span id="result1_task1" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">2. You finish sleeping.</p>
+                    <input type="text" id="q2_task1" class="border rounded-md p-2 w-full mt-1" placeholder="Your answer">
+                    <span id="result2_task1" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">3. You put something in a place where people can't see it.</p>
+                    <input type="text" id="q3_task1" class="border rounded-md p-2 w-full mt-1" placeholder="Your answer">
+                    <span id="result3_task1" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">4. You become a member of something, for example, a group or club.</p>
+                    <input type="text" id="q4_task1" class="border rounded-md p-2 w-full mt-1" placeholder="Your answer">
+                    <span id="result4_task1" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">5. You put things into a suitcase before you travel.</p>
+                    <input type="text" id="q5_task1" class="border rounded-md p-2 w-full mt-1" placeholder="Your answer">
+                    <span id="result5_task1" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">6. You want to be with someone, but they're not with you.</p>
+                    <input type="text" id="q6_task1" class="border rounded-md p-2 w-full mt-1" placeholder="Your answer">
+                    <span id="result6_task1" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">7. You feel sad and water comes out of your eyes.</p>
+                    <input type="text" id="q7_task1" class="border rounded-md p-2 w-full mt-1" placeholder="Your answer">
+                    <span id="result7_task1" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">8. You stay in one place because something is going to happen.</p>
+                    <input type="text" id="q8_task1" class="border rounded-md p-2 w-full mt-1" placeholder="Your answer">
+                    <span id="result8_task1" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+            </form>
+        </div>
+
+        <!-- Task 2: Complete the sentences. -->
+        <div id="task2" class="mb-8">
+            <h3 class="text-xl font-semibold mb-4 text-orange-500">Task 2: Complete the sentences with the words and phrases in bold in the post.</h3>
+            <form id="quizForm2" class="space-y-4">
+                <div class="space-y-2">
+                    <p class="text-gray-700">1. Do you ever <input type="text" id="q1_task2" class="border rounded-md p-2 mt-1" placeholder="Your answer"> because you're happy or only because you're sad?</p>
+                    <span id="result1_task2" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">2. How many suitcases do you <input type="text" id="q2_task2" class="border rounded-md p-2 mt-1" placeholder="Your answer"> for a two-week holiday?</p>
+                    <span id="result2_task2" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">3. What do you do when you're <input type="text" id="q3_task2" class="border rounded-md p-2 mt-1" placeholder="Your answer"> in a long queue?</p>
+                    <span id="result3_task2" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">4. What time do you usually <input type="text" id="q4_task2" class="border rounded-md p-2 mt-1" placeholder="Your answer">, and what time do you <input type="text" id="q5_task2" class="border rounded-md p-2 mt-1" placeholder="Your answer">?</p>
+                    <span id="result4_task2" class="ml-2 text-sm text-gray-500"></span>
+                    <span id="result5_task2" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">5. Do you ever <input type="text" id="q6_task2" class="border rounded-md p-2 mt-1" placeholder="Your answer"> groups or clubs?</p>
+                    <span id="result6_task2" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">6. Do you usually <input type="text" id="q7_task2" class="border rounded-md p-2 mt-1" placeholder="Your answer"> your keys?</p>
+                    <span id="result7_task2" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+                <div class="space-y-2">
+                    <p class="text-gray-700">7. When you travel, what do you <input type="text" id="q8_task2" class="border rounded-md p-2 mt-1" placeholder="Your answer"> the most about home?</p>
+                    <span id="result8_task2" class="ml-2 text-sm text-gray-500"></span>
+                </div>
+            </form>
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex justify-center space-x-4">
+            <button onclick="checkAnswers()" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-6 rounded-md shadow-md transition duration-300">Check</button>
+            <button onclick="resetAnswers()" class="bg-gray-400 hover:bg-gray-500 text-white font-bold py-2 px-6 rounded-md shadow-md transition duration-300">Reset</button>
+        </div>
+    </div>
+
+    <!-- Explanation Section -->
+    <div id="explanations" class="max-w-4xl mx-auto mt-8 p-6 md:p-10 bg-white rounded-xl shadow-lg hidden">
+        <h3 class="text-2xl font-bold mb-4 text-orange-500">Explanations</h3>
+        <ul id="explanationList" class="text-gray-700 list-disc pl-5"></ul>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="text-center mt-10">
+        <p class="text-lg md:text-xl text-gray-700">LEARN. SHARE. CONNECT</p>
+    </footer>
+
+    <script>
+        function checkAnswers() {
+            const answers = {
+                task1: {
+                    q1: { options: ["go to sleep", "go to sleep."], display: "go to sleep" },
+                    q2: { options: ["wake up", "wake up."], display: "wake up" },
+                    q3: { options: ["hide", "hide."], display: "hide" },
+                    q4: { options: ["join", "join."], display: "join" },
+                    q5: { options: ["pack", "pack."], display: "pack" },
+                    q6: { options: ["miss", "miss."], display: "miss" },
+                    q7: { options: ["cry", "cry."], display: "cry" },
+                    q8: { options: ["wait", "wait."], display: "wait" }
+                },
+                task2: {
+                    q1: { options: ["cry", "cry."], display: "cry" },
+                    q2: { options: ["pack", "pack."], display: "pack" },
+                    q3: { options: ["waiting", "waiting."], display: "waiting" },
+                    q4: { options: ["go to sleep", "go to sleep."], display: "go to sleep" },
+                    q5: { options: ["wake up", "wake up."], display: "wake up" },
+                    q6: { options: ["join", "join."], display: "join" },
+                    q7: { options: ["hide", "hide."], display: "hide" },
+                    q8: { options: ["miss", "miss."], display: "miss" }
+                }
+            };
+
+            let allCorrect = true;
+            let wrongAnswers = [];
+            const explanationList = document.getElementById('explanationList');
+            explanationList.innerHTML = '';
+
+            const checkTask = (taskName) => {
+                const form = document.getElementById(`quizForm${taskName.slice(-1)}`);
+                if (!form) return;
+                const inputs = form.querySelectorAll('input, select');
+
+                inputs.forEach(input => {
+                    const qId = input.id;
+                    const qNum = qId.split('_')[0];
+                    const resultId = `result${qId.split('_')[0].slice(1)}_${qId.split('_')[1]}`;
+                    const resultSpan = document.getElementById(resultId);
+                    
+                    const answerData = answers[taskName][qNum];
+
+                    if (!answerData) return;
+
+                    let sanitizedInput = input.value.toLowerCase().trim().replace(/['`’‘?!,.]/g, '');
+                    
+                    const isCorrect = answerData.options.includes(sanitizedInput);
+                    
+                    if (isCorrect) {
+                        resultSpan.textContent = '✅';
+                        resultSpan.style.color = 'green';
+                    } else {
+                        resultSpan.textContent = `❌`;
+                        resultSpan.style.color = 'red';
+                        allCorrect = false;
+                        
+                        const parent = input.closest('div');
+                        const questionText = parent.querySelector('p').textContent.trim().replace(/\s+/g, ' ');
+                        
+                        wrongAnswers.push({
+                            question: questionText,
+                            correctAnswer: answerData.display
+                        });
+                    }
+                });
+            };
+
+            checkTask('task1');
+            checkTask('task2');
+
+            const explanationsDiv = document.getElementById('explanations');
+            if (allCorrect) {
+                explanationsDiv.classList.add('hidden');
+            } else {
+                explanationsDiv.classList.remove('hidden');
+                wrongAnswers.forEach(item => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = `Task: "${item.question}" - Correct Answer: ${item.correctAnswer}`;
+                    explanationList.appendChild(listItem);
+                });
+            }
+        }
+
+        function resetAnswers() {
+            const inputs = document.querySelectorAll('input, select');
+            inputs.forEach(input => {
+                input.value = '';
+            });
+            const spans = document.querySelectorAll('span[id^="result"]');
+            spans.forEach(span => {
+                span.textContent = '';
+                span.style.color = '';
+            });
+
+            document.getElementById('explanations').classList.add('hidden');
+            document.getElementById('explanationList').innerHTML = '';
+        }
+    </script>
+</body>
+</html>
